@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Introduction</title>
+        <style>
+       
+            body {
+    background-color:linear-gradient(to right, #b55cb5, #00ffff);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+        
+       .button {
+    
+    border-radius: 8px;
+    color: rgb(255, 0, 195);
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width:5hv;
+    margin: 0;
+}
+       
+    </style>
+    </head>
+    <body>
+        <h1>Welcome to my Introduction app</h1>
+        <button type="button" onclick='introduction()' class="button">click me</button>
+    </body>
+     
+    <script>
+        console.log("Hello Anuhya ");
+        function introduction() {
+             
+            alert("welcome to my world");
+        }
+    </script>
+</html>
