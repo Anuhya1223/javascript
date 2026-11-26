@@ -1,0 +1,29 @@
+ <!DOCTYPE html>
+ <html>
+    <head>
+        <title>
+            my first practice
+        </title>
+         
+    </head>
+    <body>
+        <h1>This is my  first practice</h1>
+        <h2 id="demo"> intro</h2>
+        <button onclick="welcome()">click me</button>
+        <Script src="script.js">
+          
+         </Script>
+    </body>
+ </html>
+//javascript code
+
+console.log("My Name Is Anuhya")
+console.log(21)
+console.log(25+35)
+ 
+alert("welcome to my website")
+ 
+function welcome(){
+    document.getElementById("demo").innerHTML="hii this is my first javascript program"
+}
+
